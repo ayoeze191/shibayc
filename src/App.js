@@ -1,23 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { useState } from "react";
+import HomePage from "./Components/HomePage/HomePage";
+import Header from "./Components/Ui/Header";
+import SideBar from "./Components/Ui/SideBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import DashBoard from "./Components/DashBoard";
+import Overlay from "./Components/Ui/Overlay";
 function App() {
+  const [navStatus, setnavStatus] = useState(false);
+
+  const navHandler = () => {
+    setnavStatus(!navStatus)
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-Navy-Deep-Kaomaru  flex flex-col h-full relative">
+      <Router>
+        {navStatus && <Overlay remove = {navHandler}/> }
+      <Header show = {navHandler}/>
+      <div className="w-full flex-1 flex flex-row-reverse gap-10 px-6 sm:px-0">
+      <div className="flex-1">
+        <Routes>
+      
+      <Route element = {<DashBoard />}  path = "/"/>
+     
+      </Routes>
+      </div>
+      <SideBar navstatus = {navStatus}/>
+      </div>
+    
+      </Router>
     </div>
   );
 }

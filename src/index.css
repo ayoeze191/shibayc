@@ -1,13 +1,72 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+  /* height: 100%; */
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  height: 100%;
+ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  background-color: aqua;
+}
+
+
+
+
+.swiper-slide{
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.sub-menu{
+  @apply hidden
+}
+
+.menu-bar .li:hover .sub-menu{
+  @apply block absolute cursor-pointer text-white bg-silver w-full mt-3 text-center rounded-md py-3 gap-5
+}
+.menu-bar .li:hover .sub-menu ul {
+  @apply flex flex-col 
+}
+
+.menu-bar .li:hover .sub-menu ul li:hover{
+  @apply bg-white text-black
+
+}
+.menu-bar .li:hover .sub-menu ul li{
+  @apply py-2
+}
+
+@layer utilities {
+  .transit{
+    transition: all 0.25s;
+  }
+  .w-out {
+  width: calc(fit-content);
+}
+}
+
+
+
+.out {
+  width: calc(fit-content);
 }
