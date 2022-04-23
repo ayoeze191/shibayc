@@ -5,6 +5,8 @@ import SideBar from "./Components/Ui/SideBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import DashBoard from "./Components/DashBoard";
 import Overlay from "./Components/Ui/Overlay";
+import PortfolioTracker from "./Components/PortfolioTracker";
+import Token from "./Components/tokens";
 function App() {
   const [navStatus, setnavStatus] = useState(false);
 
@@ -13,7 +15,7 @@ function App() {
   }
 
   return (
-    <div className="bg-Navy-Deep-Kaomaru  flex flex-col h-full relative">
+    <div className="bg-Navy-blue  flex flex-col h-full relative">
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
@@ -22,7 +24,8 @@ function App() {
         <Routes>
       
       <Route element = {<DashBoard />}  path = "/"/>
-     
+     <Route element = {<PortfolioTracker />} path = "/portfolio-tracker" />
+     <Route element = {<Token />} path='/token' />
       </Routes>
       </div>
       <SideBar navstatus = {navStatus}/>
