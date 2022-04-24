@@ -20,7 +20,7 @@ const Token = () => {
                 </p>
                 </div>
 
-                <div className='flex gap-2 w-full justify-between  sm:justify-end px-2'>
+                <div className='flex w-full justify-between   px-2 flex-[0.5]  bg-black'>
                   <p>
                     <p>HOLDERS</p>
                     <p>0</p>
