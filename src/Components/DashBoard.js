@@ -11,7 +11,7 @@ import { BsFillMegaphoneFill, BsStars, BsFillGridFill } from 'react-icons/bs'
 import { IconContext } from 'react-icons';
 const DashBoard = () => {
   return (
-    <div className="w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-items-between items-between gap-12 box-border px-4 ">
+    <div className="w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-items-between items-between gap-12 box-border px-4">
         <div className="bg-Navy-Torea-Bay shadow-sm py-4 px-5 text-white flex flex-col">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
                 <h1>Portfolio Tracker</h1> <div><BsCalendar3Fill color='silver' fontSize='1.9rem'/></div>

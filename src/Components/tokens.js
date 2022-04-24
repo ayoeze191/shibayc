@@ -6,10 +6,10 @@ import {BsStar} from 'react-icons/bs'
 import { MdOutlineSwapHoriz } from 'react-icons/md';
 const Token = () => {
   return (
-    <div className='flex-1 w-full flex items-center justify-center'>
+    <div className='flex-1 w-full flex  justify-center h-full'>
         <div  className='w-full flex flex-col gap-6 items-center mt-10'>
-            <div className='flex items-center gap-4 w-fit'>
-                <input type='text' placeholder='Paste Your Eth Address Here' className='px-5 py-2 border-0 w-64 sm:w-96'/>
+            <div className='flex flex-col sm:flex-row items-center gap-4 w-full sm:w-fit'>
+                <input type='text' placeholder='Paste Your Eth Address Here' className='px-5 py-2 border-0 flex-1 w-4/5 sm:w-96'/>
                 <button className='flex text-lg items-center px-7 py-2 bg-silver rounded-lg text-white gap-2'><FaSearch fontSize='1.25rem' color='white'/>Go</button>
             </div>
             <div className='flex justify-between w-4/5 text-white text-xs flex-col sm:flex-row gap-5 sm:gap-0 bg-Navy-Torea-Bay items-center py-4 rounded-lg px-3'>
@@ -44,11 +44,11 @@ const Token = () => {
                 </div>
             </div>
 
-            <div className='flex w-4/5 sm:justify-end gap-4 text-white justify-center'>
-              <button className='bg-silver-sand px-4 text-center py-1 rounded-lg'><BsStar  fontSize='1.25rem' color='white'/></button>
+            <div className='flex w-4/5 sm:justify-end gap-4 text-white justify-center flex-col sm:flex-row items-center'>
+              <button className='bg-silver-sand px-4 text-center py-1 rounded-lg w-fit'><BsStar  fontSize='1.25rem' color='white'/></button>
               
-              <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg'><MdOutlineSwapHoriz fontSize='1.95rem' color='white'/> SWAP</button>
-              <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg'> <GiPadlock  fontSize='1.95rem' color='white'/> RUG CHECKER</button>
+              <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit'><MdOutlineSwapHoriz fontSize='1.95rem' color='white'/> SWAP</button>
+              <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit'> <GiPadlock  fontSize='1.95rem' color='white'/> RUG CHECKER</button>
               
             </div>
 

@@ -20,7 +20,7 @@ function App() {
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
-      <div className="w-full flex-1 flex flex-row-reverse gap-10 px-6 sm:px-0">
+      <div className="w-full flex-1 flex flex-row-reverse gap-10 sm:px-0">
       <div className="flex-1">
         <Routes>
       

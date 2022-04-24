@@ -4,7 +4,7 @@ import {GiHamburgerMenu} from "react-icons/gi"
 import {ImEarth} from 'react-icons/im'
 const Header = (props) => {
   return (
-    <div className='px-5 flex pt-4 mb-8 -z-5'>
+    <div className='px-5 flex pt-4 mb-8 -z-5 items-center'>
     <div className='flex gap-3 md:gap-7 items-center'>
     <div className='hamburger h-fit cursor-pointer' onClick={() => props.show()}>
           <GiHamburgerMenu color='silver' fontSize='1.9rem'/>  
