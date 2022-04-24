@@ -16,12 +16,12 @@ function App() {
   }
 
   return (
-    <div className="bg-Navy-blue flex flex-col relative h-full pb-5">
+    <div className="bg-Navy-blue flex flex-col relative lg:h-screen h-full pb-5">
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
-      <div className="w-full flex-1 flex flex-row-reverse gap-10 sm:px-0">
-      <div className="flex-1">
+      <div className="w-full flex-1 flex flex-row-reverse gap-10 sm:px-0 justify-center">
+      <div className="flex-1 flex justify-center ">
         <Routes>
       
       <Route element = {<DashBoard />}  path = "/"/>
