@@ -2,6 +2,7 @@ import React from 'react'
 import { FaSearch } from 'react-icons/fa'
 import goat from "./../Assets/goat.png"
 import {GiPadlock} from 'react-icons/gi'
+
 import {BsStar} from 'react-icons/bs'
 import { MdOutlineSwapHoriz } from 'react-icons/md';
 const Token = () => {
@@ -15,8 +16,8 @@ const Token = () => {
             <div className='flex justify-between w-4/5 text-white text-xs flex-col sm:flex-row gap-5 sm:gap-0 bg-Navy-Torea-Bay items-center py-4 rounded-lg px-3'>
                 <div className='flex flex-col sm:flex-row items-center gap-5 sm:gap-2'><div><img src={goat} className = "w-[4rem]" /></div>
                 <p>
-                  SHIBAYC
-                  <h2>SBAYC</h2>
+                Cashlno
+                  <h2>Cashlno</h2>
                 </p>
                 </div>
 

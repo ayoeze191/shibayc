@@ -28,7 +28,7 @@ const DashBoard = () => {
                 <h1>Rug Checker</h1> <div><BsFillMegaphoneFill color='silver' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-                Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free
+            Rug Checker gives you information about a contract and the chances of it being a scam.
             </p>
             <div className='flex px-8 '>
                 <button className='bg-silver flex-1 py-4'>Analyze contract</button>
@@ -39,7 +39,7 @@ const DashBoard = () => {
                 <h1>Swap</h1><div> <MdOutlineSwapHoriz color='silver' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-                Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free
+            Trade any token on Ethereum Chain in seconds, just by connecting your wallet.
             </p>
             <div className='flex px-8 '>
                 <button className='bg-silver flex-1 py-4'>Track Tokens</button>
@@ -50,7 +50,7 @@ const DashBoard = () => {
                 <h1>Watchlist</h1><div> <BsStars color='silver' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-                Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free
+            Keep tracking any coin on Ethereum Chain and receive important performance information.
             </p>
             <div className='flex px-8 '>
                 <button className='bg-silver flex-1 py-4'>Swap Tokens</button>
@@ -61,7 +61,7 @@ const DashBoard = () => {
                 <h1>MultiChart</h1><div> <BsFillGridFill color='silver' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-                Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free
+            Track price charts from different projects at the same time with our Multichart tool.
             </p>
             <div className='flex px-8 '>
                 <button className='bg-silver flex-1 py-4'>Check Now</button>
@@ -72,7 +72,7 @@ const DashBoard = () => {
                 <h1>New Contract</h1><div> <BiRecycle color='silver' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-                Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free
+            Live feed of newly deployed contracts on ethereum network.
             </p>
             <div className='flex px-8 '>
                 <button className='bg-silver flex-1 py-4'>More Info</button>
