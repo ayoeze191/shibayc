@@ -15,7 +15,7 @@ import { NavLink } from 'react-router-dom';
 
 const SideBar = (props) => {
   return (
-    <div className={props.navstatus?' h-screen md:h-fit px-3 lg:px-0 text-white md:w-[15rem] overflow-hidden transit fixed z-50 md:relative translate-x-0 left-0 bg-Navy-Deep-Kaomaru shadow-md top-0':'px-3 lg:px-0 text-white md:w-[3.9rem] overflow-hidden transit fixed md:relative -translate-x-[900px] md:translate-x-0'}>
+    <div className={props.navstatus?' h-screen md:h-full px-3 lg:px-0 text-white md:w-[15rem] overflow-hidden transit fixed z-50 md:relative translate-x-0 left-0 bg-Navy-Deep-Kaomaru shadow-md top-0':'px-3 lg:px-0 text-white md:w-[3.9rem] overflow-hidden transit fixed md:relative -translate-x-[900px] md:translate-x-0'}>
         <div className='w-full flex flex-col h-full'>
         <div className='flex gap-4 w-full hover:bg-Navy-Torea-Bay cursor-pointer rounded-lg py-4 px-4 items-center '>
             <div>
