@@ -7,6 +7,7 @@ import DashBoard from "./Components/DashBoard";
 import Overlay from "./Components/Ui/Overlay";
 import PortfolioTracker from "./Components/PortfolioTracker";
 import Token from "./Components/tokens";
+import WatchList from "./Components/WatchList";
 function App() {
   const [navStatus, setnavStatus] = useState(false);
 
@@ -15,7 +16,7 @@ function App() {
   }
 
   return (
-    <div className="bg-Navy-blue  flex flex-col h-full relative">
+    <div className="bg-Navy-blue flex flex-col relative h-full">
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
@@ -26,6 +27,7 @@ function App() {
       <Route element = {<DashBoard />}  path = "/"/>
      <Route element = {<PortfolioTracker />} path = "/portfolio-tracker" />
      <Route element = {<Token />} path='/token' />
+     <Route element = {<WatchList /> } path = 'watch-list' />
       </Routes>
       </div>
       <SideBar navstatus = {navStatus}/>

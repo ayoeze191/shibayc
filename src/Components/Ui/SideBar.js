@@ -50,18 +50,22 @@ const SideBar = (props) => {
         </div>
         <p   >swap</p>
         </div>
-        <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md py-4 px-4 items-center'>
+        <NavLink to='/token'><div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md py-4 px-4 items-center'>
         <div className='w-[1.9rem] h-[1.9rem]'>
         <BsFillMegaphoneFill color='silver' fontSize='1.9rem'/>
         </div>
         <p   >Rug Checker</p>
         </div>
+        </NavLink>
+
+        <NavLink to='/watch-list'>
         <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md py-4 px-4 items-center'>
         <div className='w-[1.9rem] h-[1.9rem]'>
         <BsStars color='silver' fontSize='1.9rem'/>
         </div>
-        <p   >Watchlist</p>
+        <p>Watchlist</p>
         </div>
+        </NavLink>
 
         <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md py-4 px-4 items-center'>
         <div className='w-[1.9rem] h-[1.9rem]'>
