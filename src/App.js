@@ -8,6 +8,7 @@ import Overlay from "./Components/Ui/Overlay";
 import PortfolioTracker from "./Components/PortfolioTracker";
 import Token from "./Components/tokens";
 import WatchList from "./Components/WatchList";
+import MultiChart from "./Components/MultiChart";
 function App() {
   const [navStatus, setnavStatus] = useState(false);
 
@@ -16,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className="bg-Navy-blue flex flex-col relative lg:h-screen h-full pb-5">
+    <div className="bg-Navy-blue flex flex-col lg:h-screen h-full pb-5">
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
@@ -27,7 +28,9 @@ function App() {
       <Route element = {<DashBoard />}  path = "/"/>
      <Route element = {<PortfolioTracker />} path = "/portfolio-tracker" />
      <Route element = {<Token />} path='/token' />
-     <Route element = {<WatchList /> } path = 'watch-list' />
+     <Route element = {<WatchList /> } path = '/watch-list' />
+     <Route element = {<MultiChart /> } path = '/multichart' />
+
       </Routes>
       </div>
       <SideBar navstatus = {navStatus}/>

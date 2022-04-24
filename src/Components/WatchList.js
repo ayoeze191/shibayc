@@ -2,7 +2,7 @@ import React from 'react'
 import { FaSearch } from 'react-icons/fa'
 const WatchList = () => {
   return (
-    <div className='flex flex-col flex-1  items-center justify-center gap-5'>
+    <div className='flex flex-col flex-1  items-center gap-5 md:pt-14'>
         <h1 className='text-5xl font-bold text-silver-sand flex flex-col text-center'>WatchList</h1>
         <h3 className='text-white text-lg'>Track Tokens around the Ethereum Chain</h3>
         <div className='flex items-center gap-4 w-fit'>
