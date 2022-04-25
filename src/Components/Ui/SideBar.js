@@ -77,12 +77,14 @@ const SideBar = (props) => {
         </div>
         </NavLink>
 
-        <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md px-4 items-center'>
+        <NavLink to='/BuyCrpto'>
+          <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md px-4 items-center'>
         <div className='w-[1.9rem] h-[1.9rem]'>
         <BiRecycle color='silver' fontSize='1.9rem'/>
         </div>
-        <p   >Buy Crpto</p>
+        <p>Buy Crpto</p>
         </div>
+        </NavLink>
 
         <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md px-4 items-center'>
         <div className='w-[1.9rem] h-[1.9rem] bg-silver rounded-sm'>
