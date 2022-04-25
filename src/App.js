@@ -17,7 +17,7 @@ function App() {
   }
 
   return (
-    <div className="bg-Navy-blue flex flex-col h-full pb-5">
+    <div className="bg-Navy-blue flex flex-col h-full pb-5 ">
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>

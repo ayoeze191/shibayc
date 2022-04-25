@@ -21,6 +21,9 @@
 }
 
 
+
+
+
 .swiper-slide{
   /* background-color: red; */
   display: flex;
@@ -55,6 +58,14 @@
   .w-out {
   width: calc(fit-content);
 }
+.long-div:hover h1{
+  background-color: rgb(71 85 105);
+  transition : all 1s ;
+  cursor: pointer;
+} 
+}
+.grid-items{
+  grid-column: 1/4;
 }
 
 .active{

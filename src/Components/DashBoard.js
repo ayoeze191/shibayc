@@ -21,7 +21,7 @@ const DashBoard = () => {
             </p>
             <div className='flex px-8 '>
                 <button className='bg-silver flex-1 py-4'>Track Wallet</button>
-            </div>
+            </div>  
         </div>
         <div className="bg-Navy-Torea-Bay shadow-sm py-4 px-5 text-white">
             <div className='mb-4 text-2xl font-bold flex justify-between'>

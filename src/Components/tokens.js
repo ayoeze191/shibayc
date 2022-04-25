@@ -21,7 +21,7 @@ const Token = () => {
                 </p>
                 </div>
 
-                <div className='flex w-full justify-between   px-2 flex-[0.5]  bg-black'>
+                <div className='flex w-full justify-between   px-2 flex-[0.5] '>
                   <p>
                     <p>HOLDERS</p>
                     <p>0</p>
@@ -52,7 +52,15 @@ const Token = () => {
               <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit'> <GiPadlock  fontSize='1.95rem' color='white'/> RUG CHECKER</button>
               
             </div>
-
+            <div className=' grid grid-cols-3 text-white bg-slate-900  md:flex px-[0.15rem] gap-[0.15rem] long-div w-4/5'>
+              <h1 className=' h-full py-4 px-4 border-t-2 border-t-slate-600 flex-1'>Type</h1>
+              <h1 className=' py-4 px-4 border-t-slate-600  border-t-2 flex-1 '>Tokens</h1>
+              <h1 className=' py-4 px-4 border-t-slate-600  border-t-2 flex-1'>Price USD</h1>
+              <h1 className=' py-4 px-4 border-t-slate-600  border-t-2 flex-[1.5] text-center '>Price USD/Token</h1>
+              <h1 className=' py-4 px-4 border-t-slate-600  border-t-2 flex-1'>Time</h1>
+              <h1 className=' py-4 px-4 border-t-slate-600  border-t-2 flex-1'>Tx</h1>
+          
+            </div>
         </div>
 
     </div>
