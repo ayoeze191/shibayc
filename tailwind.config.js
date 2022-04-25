@@ -7,12 +7,10 @@ module.exports = {
         paddingTop: '4rem',
       },
       colors:{
-        'silver-sand': '#B8BDBD',
-        'silver': '#c0c0c0',
         'Navy-blue': 'hsl(240, 76%, 5%)',
-        'Navy-Ultramine': '#070787',
-        'Navy-Torea-Bay':'#1414A4',
-        'Navy-Deep-Kaomaru': '#101077',
+        'color--luminous-vivid-amber': '#fcb900',
+        'd': '#ffcc00',
+        'mypurple': '#330325' 
       },
     },
   },

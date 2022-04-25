@@ -17,11 +17,11 @@ function App() {
   }
 
   return (
-    <div className="bg-Navy-blue flex flex-col h-full pb-5 ">
+    <div className=" bg-mypurple flex flex-col h-full pb-5 relative min-h-screen">
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
-      <div className="w-full flex-1 flex flex-row-reverse gap-10 sm:px-0 justify-center">
+      <div className="w-full flex-1 flex flex-row-reverse gap-10 sm:px-0 justify-center relative">
       <div className="flex-1 flex justify-center">
         <Routes>
       

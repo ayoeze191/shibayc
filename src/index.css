@@ -14,10 +14,11 @@
   }
   body{
       height: 100%;
-      background-color: hsl(240, 76%, 5%);
       position: relative;
-      
   }
+}
+.as{
+  background-color: blueviolet;
 }
 
 
@@ -37,7 +38,7 @@
 }
 
 .menu-bar .li:hover .sub-menu{
-  @apply block absolute cursor-pointer text-white bg-silver w-full mt-2 text-center rounded-md py-3 gap-5
+  @apply block absolute cursor-pointer text-white bg-color--luminous-vivid-amber w-full mt-2 text-center rounded-md py-3 gap-5
 }
 .menu-bar .li:hover .sub-menu ul {
   @apply flex flex-col 
@@ -69,7 +70,7 @@
 }
 
 .active{
-  @apply bg-Navy-Torea-Bay
+  /* @apply bg-Navy-Torea-Bay */
   
 }
 

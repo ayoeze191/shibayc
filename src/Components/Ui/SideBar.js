@@ -15,13 +15,13 @@ import { NavLink } from 'react-router-dom';
 
 const SideBar = (props) => {
   return (
-    <div className={props.navstatus?' h-screen px-3 lg:px-0 text-white md:w-[15rem] overflow-hidden transit fixed z-50 md:relative translate-x-0 left-0 bg-Navy-Deep-Kaomaru shadow-md top-0':'px-3 lg:px-0 text-white md:w-[3.9rem] overflow-hidden transit fixed md:relative -translate-x-[1200px] md:translate-x-0 h-screen'}>
+    <div className={props.navstatus?' md:top-0 md:h-[fit] h-[90vh] top-[10vh] px-3 lg:px-0 text-white md:w-[15rem] overflow-hidden transit fixed z-50 md:relative translate-x-0 left-0 shadow-2xl':'px-3 lg:px-0 text-white md:w-[3.9rem] overflow-hidden transit fixed md:relative -translate-x-[1200px] md:translate-x-0 h-screen shadow-2xl'}>
         <div className='w-full flex flex-col h-full justify-between py-5'>
         <div className='flex gap-4 w-full hover:bg-Navy-Torea-Bay cursor-pointer rounded-lg  px-4 items-center '>
             <div>
         <BsFillHouseFill color='silver' fontSize='1.9rem'/>
         </div>
-        <p>Homepage</p>
+        <p><a href = 'https://cashino.finance/'> Homepage</a></p>
         </div>
         
         <NavLink to='/'>
