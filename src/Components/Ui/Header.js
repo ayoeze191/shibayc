@@ -4,7 +4,7 @@ import {GiHamburgerMenu} from "react-icons/gi"
 import {ImEarth} from 'react-icons/im'
 const Header = (props) => {
   return (
-    <div className='px-5 flex py-2  mb-8 -z-5 items-center bg-Navy-blue'>
+    <div className='px-5 flex py-2  mb-8 -z-5 items-center bg-Navy-blue font-poppins-Regular'>
     <div className='flex gap-3 md:gap-7 items-center'>
     <div className='hamburger h-fit cursor-pointer' onClick={() => props.show()}>
           <GiHamburgerMenu color='blueviolet' fontSize='1.9rem'/>  
@@ -15,7 +15,7 @@ const Header = (props) => {
         <div className='inline-flex menu-bar gap-0'>
             <div className='li relative w-fit px-5'>
     <button className=' bg-color--luminous-vivid-amber py-2 px-4 rounded-md text-xs sm:text-sm text-white h-fit hover:h-fit'><ImEarth color='blue' fontSize='1.1rem'/></button>
-    <div className='sub-menu mx-auto'>
+    <div className='sub-menu mx-auto z-50'>
         <ul>
             <li>English</li>
             <li>Chinese</li>

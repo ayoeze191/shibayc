@@ -21,6 +21,12 @@
   background-color: blueviolet;
 }
 
+.loader path:nth-child(3) {
+  transform-origin: center;
+  position: relative;
+    text-align: center;
+    margin-top: 40px;
+}
 
 
 
@@ -78,3 +84,141 @@
 .out {
   width: calc(fit-content);
 }
+
+@font-face {
+  font-family: 'inter-Regular';
+  src: local('inter-Regular'), url(./Fonts/Inter-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'inter-Bold';
+  src: local('inter-Bold'), url(./Fonts/Inter-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'inter-Medium';
+  src: local('inter-Medium'), url(./Fonts/Inter-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'inter-SemiBold';
+  src: local('inter-SemiBold'), url(./Fonts/Inter-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: local('Poppins-Bold'), url(./Fonts/Poppins-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-ExtraLight';
+  src: local('Inter-ExtraLight'), url(./Fonts/Inter-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'), url(./Fonts/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-ExtraBold';
+  src: local('Outfit-ExtraBold'), url(./Fonts/Outfit-ExtraBold.ttf) format('truetype');
+}
+
+
+
+.embedded-container {
+  z-index: 1000;
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.loader-container {
+  align-self: center;
+}
+
+.loader {
+  transform-origin: center;
+  animation: logoAnimation 4s linear infinite;
+  width: 100px;
+  height: auto;
+  align-self: center;
+}
+
+.loader path:nth-child(3) {
+  transform-origin: center;
+  position: relative;
+}
+
+.loader path:nth-child(1) {
+  transform-origin: center;
+  position: relative;
+  animation: box1Animation 4s linear infinite;
+  transform: scale(0.4) translateX(6px);
+}
+
+.loader path:nth-child(2) {
+  transform-origin: center;
+  position: relative;
+  animation: box4Animation 4s linear infinite;
+  transform: scale(0.4) translateX(-6px);
+}
+
+@keyframes logoAnimation {
+  10% {
+    transform: rotate(180deg);
+  }
+  30%{
+    transform: rotate(360deg);
+  }
+  70% {
+    transform: rotate(360deg);
+  }
+  90% {
+    transform: rotate(520deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+@keyframes box1Animation {
+  0%, 10% {
+    transform: scale(0.4) translateX(6px);
+  }
+  30%, 70% {
+    transform: scale(1) translateX(0);
+  }
+  90% {
+    transform: scale(0.4) translateX(6px);
+  }
+}
+
+
+@keyframes box4Animation {
+  0%, 10% {
+    transform: scale(0.4) translateX(-6px);
+  }
+  30%, 70% {
+    transform: scale(1) translateX(0);
+  }
+  90% {
+    transform: scale(0.4) translateX(-6px);
+  }
+}
+/* 
+.iframe {
+  border: none;
+  user-select: none;
+  visibility: hidden;
+  position: absolute;
+}
+
+.iframe.visible {
+  visibility: visible;
+} */
+

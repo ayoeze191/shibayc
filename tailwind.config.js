@@ -12,6 +12,13 @@ module.exports = {
         'd': '#ffcc00',
         'mypurple': '#330325' 
       },
+      fontFamily:{
+        "poppins-Regular": ["Poppins-Regular"],
+        "poppins-bold": ["Poppins-Bold"],
+        "outfit-ExtraBold": ['Outfit-ExtraBold'],
+        "inter-Bold": ['inter-Bold'],
+        "inter-Medium'": ['inter-Medium']
+      },
     },
   },
   plugins: [],

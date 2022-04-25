@@ -9,6 +9,7 @@ import PortfolioTracker from "./Components/PortfolioTracker";
 import Token from "./Components/tokens";
 import WatchList from "./Components/WatchList";
 import MultiChart from "./Components/MultiChart";
+import BuyCrpto from "./Components/BuyCrypto";
 function App() {
   const [navStatus, setnavStatus] = useState(false);
 
@@ -30,6 +31,8 @@ function App() {
      <Route element = {<Token />} path='/token' />
      <Route element = {<WatchList /> } path = '/watch-list' />
      <Route element = {<MultiChart /> } path = '/multichart' />
+     <Route element = {<BuyCrpto /> } path = '/BuyCrpto' />
+
 
       </Routes>
       </div>
