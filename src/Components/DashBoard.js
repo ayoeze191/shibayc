@@ -42,7 +42,7 @@ const DashBoard = () => {
             Trade any token on Ethereum Chain in seconds, just by connecting your wallet.
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Track Tokens</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Swap Tokens </button>
             </div>
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-sm shadow-d">
@@ -53,7 +53,7 @@ const DashBoard = () => {
             Keep tracking any coin on Ethereum Chain and receive important performance information.
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Swap Tokens</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Track Tokens</button>
             </div>
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-md shadow-d">

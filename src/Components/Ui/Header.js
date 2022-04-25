@@ -19,7 +19,9 @@ const Header = (props) => {
         <ul>
             <li>English</li>
             <li>Chinese</li>
-            <li>Korea</li>
+            <li>Korean</li>
+            <li>Turkish</li>
+            <li>Arabic</li>
         </ul>
     </div>
     </div>
