@@ -15,7 +15,7 @@ import { NavLink } from 'react-router-dom';
 
 const SideBar = (props) => {
   return (
-    <div className={props.navstatus?' font-poppins-Regular md:top-0 md:h-[fit] top-[10vh] px-3 lg:px-0 text-white md:w-[15rem] overflow-hidden transit fixed z-50 md:relative translate-x-0 left-0 shadow-2xl':'px-3 lg:px-0 text-white md:w-[3.5rem] overflow-hidden transit fixed md:relative -translate-x-[1200px] md:translate-x-0 h-screen shadow-2xl'}>
+    <div className={props.navstatus?' font-poppins-Regular md:top-0 md:h-[fit] px-3 lg:px-0 text-white md:w-[15rem] overflow-hidden transit fixed z-50 md:relative translate-x-0 left-0 shadow-2xl':'px-3 lg:px-0 text-white md:w-[3.5rem] overflow-hidden transit fixed md:relative -translate-x-[1200px] md:translate-x-0 h-screen shadow-2xl'}>
         
         <div className='flex flex-col h-full'>
           <div className='px-4 md:hidden'>
@@ -36,7 +36,6 @@ const SideBar = (props) => {
         <div className='flex gap-4 hover:bg-Navy-Torea-Bay cursor-pointer rounded-md px-4 items-center'>
             <div>
             <FaUserFriends color='silver' fontSize='1.5rem'/>
-
             </div>
             <p>Dashboard</p>
         </div>

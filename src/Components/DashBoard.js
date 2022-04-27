@@ -5,77 +5,81 @@ import { BsFillHouseFill, BsCalendar3Fill } from "react-icons/bs";
 import { MdOutlineSwapHoriz } from 'react-icons/md';
 import {BiRecycle, BiListUl} from 'react-icons/bi'
 import GiTrumpet from "react-icons/gi"
+import {useTranslation} from "react-i18next";
 
 import { FaUserFriends } from 'react-icons/fa';
 import { BsFillMegaphoneFill, BsStars, BsFillGridFill } from 'react-icons/bs'
 import { IconContext } from 'react-icons';
 const DashBoard = () => {
+    const { t } = useTranslation()
+    // console.log(t(''))
+    // console.log(t('look.deep', { ns: 'DashBoard' }))
   return (
     <div className="w-full  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 justify-items-between items-between gap-12 box-border px-4 font-poppins-Regular">
         <div className=" py-4 px-5 text-white flex flex-col shadow-sm shadow-d">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
-                <h1>Portfolio Tracker</h1> <div><BsCalendar3Fill color='#ffcc00' fontSize='1.9rem'/></div>
+                <h1>{t('DashBoard.Portfolio_Tracker_Header')}</h1> <div><BsCalendar3Fill color='#ffcc00' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-                Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free
+            {t('DashBoard.Portfolio_Tracker_Text')}
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Track Wallet</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'> {t('DashBoard.Portfolio_Tracker_Button')}</button>
             </div>  
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-sm shadow-d">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
-                <h1>Rug Checker</h1> <div><BsFillMegaphoneFill color='#ffcc00' fontSize='1.9rem'/></div>
+                <h1>{t('DashBoard.Rug_Checker_Header')}</h1> <div><BsFillMegaphoneFill color='#ffcc00' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-            Rug Checker gives you information about a contract and the chances of it being a scam.
+            {t('DashBoard.Rug_Checker_Text')}
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Analyze contract</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>{t('DashBoard.Rug_Checker_Button')}</button>
             </div>
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-sm shadow-d">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
-                <h1>Swap</h1><div> <MdOutlineSwapHoriz color='#ffcc00' fontSize='1.9rem'/></div>
+                <h1>{t('DashBoard.Swap_Header')}</h1><div> <MdOutlineSwapHoriz color='#ffcc00' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-            Trade any token on Ethereum Chain in seconds, just by connecting your wallet.
+            {t('DashBoard.Swap_Text')}
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Swap Tokens </button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>{t('DashBoard.Swap_Button')}</button>
             </div>
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-sm shadow-d">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
-                <h1>Watchlist</h1><div> <BsStars color='#ffcc00' fontSize='1.9rem'/></div>
+                <h1>{t('DashBoard.Watch_list_Header')}</h1><div> <BsStars color='#ffcc00' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-            Keep tracking any coin on Ethereum Chain and receive important performance information.
+            {t('DashBoard.Watch_list_Text')}
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Track Tokens</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>{t('DashBoard.Watch_list_Button')}</button>
             </div>
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-md shadow-d">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
-                <h1>MultiChart</h1><div> <BsFillGridFill color='#ffcc00' fontSize='1.9rem'/></div>
+                <h1>{t('DashBoard.Multi_Chart_Header')}</h1><div> <BsFillGridFill color='#ffcc00' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-            Track price charts from different projects at the same time with our Multichart tool.
+            {t('DashBoard.Multi_Chart_Text')}
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>Check Now</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'> {t('DashBoard.Multi_Chart_Button')}</button>
             </div>
         </div>
         <div className="bg-Navy-Torea-Bay  py-4 px-5 text-white shadow-sm shadow-d">
             <div className='mb-4 text-2xl font-bold flex justify-between'>
-                <h1>New Contract</h1><div> <BiRecycle color='#ffcc00' fontSize='1.9rem'/></div>
+                <h1>{t('DashBoard.New_contract_Header')}</h1><div> <BiRecycle color='#ffcc00' fontSize='1.9rem'/></div>
             </div>
             <p className='mb-6'>
-            Live feed of newly deployed contracts on ethereum network.
+            {t('DashBoard.New_contract_Text')}
             </p>
             <div className='flex px-8 '>
-                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>More Info</button>
+                <button className='bg-color--luminous-vivid-amber flex-1 py-4'>{t('DashBoard.New_contract_Button')}</button>
             </div>
         </div>
         

@@ -1,0 +1,24 @@
+{
+   "DashBoard": {
+    
+       "Portfolio_Tracker_Header": "Portfolio Tracker",
+        "Portfolio_Tracker_Text": "Portfolio Tracker lets you track your ETH wallets by entering your wallet address for free.",
+        "Portfolio_Tracker_Button": "Track Wallet",
+        "Rug_Checker_Header": "Rug Checker",
+        "Rug_Checker_Text": "Rug Checker gives you information about a contract and the chances of it being a scam.",
+        "Rug_Checker_Button": "Analyse Contract",
+        "Swap_Header": "Swap",
+        "Swap_Text": "Trade any token on Ethereum Chain in seconds, just by connecting your wallet.",
+        "Swap_Button": "Swap Token",
+        "Watch_list_Header": "Watch List",
+        "Watch_list_Text": "Keep tracking any coin on Ethereum Chain and receive important performance information.",
+        "Watch_list_Button": "Track Token",
+        "Multi_Chart_Header": "Multichart",
+        "Multi_Chart_Text": "Track price charts from different projects at the same time with our Multichart tool.",
+        "Multi_Chart_Button": "Check Now",
+        "New_contract_Header": "New Contracts",
+        "New_contract_Text": "Live feed of newly deployed contracts on ethereum network.",
+        "New_contract_Button": "More Info"
+
+   }
+}

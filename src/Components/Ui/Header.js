@@ -2,6 +2,31 @@ import React from 'react'
 import Logo from './../../Assets/shilogo.jpg'
 import {GiHamburgerMenu} from "react-icons/gi"
 import {ImEarth} from 'react-icons/im'
+import i18next from 'i18next'
+const languages = [
+  {
+    code: 'en',
+    name: 'English',
+    country_code: 'gb'
+  },
+  {
+    code: 'ch',
+    name: 'Chinese',
+    country_code: 'ch'
+  },
+  {
+    code: 'ks',
+    name: 'Korea',
+    country_code: 'ks'
+  },
+  {
+    code: 'tu',
+    name: 'Turkish',
+    country_code: 'tu'
+  },
+]
+
+
 const Header = (props) => {
   return (
     <div className='px-5 flex py-2  mb-8 -z-5 items-center bg-Navy-blue font-poppins-Regular'>
@@ -17,11 +42,8 @@ const Header = (props) => {
     <button className=' bg-color--luminous-vivid-amber py-2 px-4 rounded-md text-xs sm:text-sm text-white h-fit hover:h-fit'><ImEarth color='blue' fontSize='1.1rem'/></button>
     <div className='sub-menu mx-auto z-50'>
         <ul>
-            <li>English</li>
-            <li>Chinese</li>
-            <li>Korean</li>
-            <li>Turkish</li>
-            <li>Arabic</li>
+            {languages.map(({code, name, country_code}) => 
+            <li key={country_code} onClick = {() => i18next.changeLanguage(code)}>{name}</li>)}
         </ul>
     </div>
     </div>

@@ -1,0 +1,24 @@
+{
+    "DashBoard": {
+        "Portfolio_Tracker_Header": "포트폴리오 트래커",
+         "Portfolio_Tracker_Text": "Portfolio Tracker를 사용하면 지갑 주소를 무료로 입력하여 BSC 지갑을 추적할 수 있습니다.",
+         "Portfolio_Tracker_Button": "지갑 추적",
+         "Rug_Checker_Header": "러그 검사기",
+         "Rug_Checker_Text": "Rug Checker는 계약 및 사기 가능성에 대한 정보를 제공합니다.",
+         "Rug_Checker_Button": "계약 분석",
+         "Swap_Header": "교환",
+         "Swap_Text": "지갑을 연결하기만 하면 바이낸스 스마트 체인의 모든 토큰을 몇 초 만에 거래할 수 있습니다.",
+         "Swap_Button": "스왑 토큰",
+         "Watch_list_Header": "관심 목록",
+         "Watch_list_Text": "바이낸스 스마트 체인에서 모든 코인을 계속 추적하고 중요한 성능 정보를 받으십시오.",
+         "Watch_list_Button": "트랙 토큰",
+         "Multi_Chart_Header": "멀티 차트",
+         "Multi_Chart_Text": "Multichart 도구를 사용하여 여러 프로젝트의 가격 차트를 동시에 추적하십시오.",
+         "Multi_Chart_Button": "지금 확인",
+         "New_contract_Header": "새로운 계약",
+         "New_contract_Text": "이더리움 네트워크에 새로 배포된 계약의 라이브 피드",
+         "New_contract_Button": "더 많은 정보"
+    }
+ }
+
+ 

@@ -1,0 +1,22 @@
+{
+    "DashBoard": {
+        "Portfolio_Tracker_Header": "投資組合追踪器",
+         "Portfolio_Tracker_Text": "Portfolio Tracker 可讓您通過免費輸入您的錢包地址來跟踪您的 BSC 錢包",
+         "Portfolio_Tracker_Button": "追踪錢包",
+         "Rug_Checker_Header": "地毯檢查器",
+         "Rug_Checker_Text": "地毯檢查器為您提供有關合同的信息以及它是騙局的可能性。",
+         "Rug_Checker_Button": "分析合約",
+         "Swap_Header": "交換",
+         "Swap_Text": "只需連接您的錢包，即可在數秒內交易幣安智能鏈上的任何代幣",
+         "Swap_Button": "交換代幣",
+         "Watch_list_Header": "關注列表",
+         "Watch_list_Text": "繼續跟踪幣安智能鏈上的任何硬幣並接收重要的性能信息。",
+         "Watch_list_Button": "跟踪令牌",
+         "Multi_Chart_Header": "多圖",
+         "Multi_Chart_Text": "使用我們的 Multichart 工具同時跟踪來自不同項目的價格圖表",
+         "Multi_Chart_Button": "現在檢查",
+         "New_contract_Header": "新合同",
+         "New_contract_Text": "以太坊网络上新部署的合约的实时提要",
+         "New_contract_Button": "更多信息"
+    }
+ }

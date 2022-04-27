@@ -10,7 +10,14 @@ import Token from "./Components/tokens";
 import WatchList from "./Components/WatchList";
 import MultiChart from "./Components/MultiChart";
 import BuyCrpto from "./Components/BuyCrypto";
+import {useTranslation} from "react-i18next";
+
+
+
+
 function App() {
+
+  const { t } = useTranslation()
   const [navStatus, setnavStatus] = useState(false);
 
   const navHandler = () => {
@@ -18,7 +25,10 @@ function App() {
   }
 
   return (
-    <div className=" bg-mypurple flex flex-col h-full pb-5 relative min-h-screen">
+    <div className=" bg-mypurple flex flex-col pb-5 relative min-h-screen 2xl:max-w-7xl mx-auto overflow-hidden">
+      <div>
+        {t('DashBoard.Portfolio_Tracker_Text')}
+      </div>
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>
