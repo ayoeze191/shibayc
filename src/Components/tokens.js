@@ -15,7 +15,7 @@ const Token = () => {
         <div><input type='submit' className='bg-d py-2 px-2 text-white rounded-lg '/></div>
         </div>
 
-        <div className='w-4/5 text-white flex flex-col md:flex-row justify-between max-w-4xl bg-slate-900 py-3 rounded-lg px-3'>
+        <div className='w-4/5 text-white flex flex-col md:flex-row justify-between max-w-4xl bg-slate-900 py-3 rounded-lg px-3 items-center gap-10'>
         <div className='flex gap-2 w-full items-center justify-center md:justify-start md:w-fit '><div><img src={Logo} className = "w-[4rem]" /></div><p>
 Cashlno
   <h2>Cashlno</h2>
@@ -42,6 +42,9 @@ Cashlno
             <p>Liquidity</p>
             <p>0</p>
           </div>
+        </div>
+        <div className="w-11">
+  <img src={upFork}  className = "w-full"/>
         </div>
         </div>
         <div className='flex justify-center sm:justify-end gap-2 mx-auto items-center w-4/5 sm:max-w-3xl text-xs sm:text-base mt-4 mb-4'>
