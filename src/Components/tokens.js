@@ -51,7 +51,7 @@ Cashlno
   <img src={upFork}  className = "w-full"/>
 </div>
         </div>
-        <div className='flex justify-center sm:justify-end gap-2 mx-auto items-center w-4/5 sm:max-w-3xl'>
+        <div className='flex justify-center sm:justify-end gap-2 mx-auto items-center w-4/5 sm:max-w-3xl text-xs sm:text-base'>
 <button className='bg-silver-sand px-4 text-center py-1 rounded-lg w-fit bg-d'><BsStar  fontSize='1.25rem' color='white'/></button>
 
 <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit bg-d'><MdOutlineSwapHoriz color='white'/> SWAP</button>
