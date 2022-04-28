@@ -7,9 +7,9 @@ const WatchList = () => {
 
         <h1 className='text-5xl font-bold text-silver-sand text-center text-d'>WatchList</h1>
         <h3 className='text-white text-center text-lg'>Track Tokens around the Ethereum Chain</h3>
-        <div className='flex items-center gap-4 w-fit flex-col sm:flex-row'>
-                <input type='text' placeholder='Paste Your Eth Address Here' className='px-5 py-2 border-0 w-64 sm:w-96'/>
-                <button className='flex text-lg items-center px-7 py-2 bg-d rounded-lg text-white gap-2'><FaSearch fontSize='1.25rem' color='white'/>Go</button>
+        <div className='flex w-4/5 mx-auto items-center justify-center max-w-lg'>
+                <input type='text' placeholder='Paste Your Eth Address Here' className='py-2 w-[70%] flex-1'/>
+                <button className='flex  px-7 py-2 bg-d rounded-lg text-white gap-2'><FaSearch fontSize='1.25rem' color='white'/>Go</button>
             </div>
             <div className='flex w-11/12 overflow-x-scroll long-div bg-slate-900 text-white md:overflow-hidden long-div md:max-w-3xl justify-between gap-[2.5px]'>
 <div className='flex-1 text-center py-3 border-t-2 border-t-slate-600'>Type</div>

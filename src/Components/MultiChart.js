@@ -16,5 +16,4 @@ const MultiChart = () => {
     </div>
   )
 }
-
 export default MultiChart
