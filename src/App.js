@@ -25,10 +25,10 @@ function App() {
   }
 
   return (
-    <div className=" bg-mypurple flex flex-col pb-5 relative min-h-screen 2xl:max-w-7xl mx-auto overflow-hidden">
-      <div>
+    <div className=" bg-mypurple flex flex-col pb-5 relative h-full min-h-screen 2xl:max-w-7xl mx-auto">
+      {/* <div>
         {t('DashBoard.Portfolio_Tracker_Text')}
-      </div>
+      </div> */}
       <Router>
         {navStatus && <Overlay remove = {navHandler}/> }
       <Header show = {navHandler}/>

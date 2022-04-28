@@ -65,7 +65,7 @@
   .w-out {
   width: calc(fit-content);
 }
-.long-div:hover h1{
+.long-div:hover div{
   background-color: rgb(71 85 105);
   transition : all 1s ;
   cursor: pointer;
