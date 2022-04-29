@@ -1,6 +1,6 @@
 const BuyCrpto = () => {
     return(
-        <div className="flex flex-col gap-8 items-center w-4/5 sm:w-fit">
+        <div className="flex flex-col gap-8 items-center w-4/5 sm:w-fit relative">
             <h1 className="text-d font-poppins-Regular text-3xl font-bold">Buy Crypto with Fiat</h1>
             <div className=" flex-1 flex-col">
             <p className="text-white font-poppins-Regular px-2">Buy crypto with fiat money using credit cards like Visa and Mastercard</p>

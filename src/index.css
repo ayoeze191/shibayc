@@ -133,7 +133,8 @@
   flex-flow: row nowrap;
   justify-content: center;
   align-items: flex-start;
-
+  /* background-color: red; */
+  height: 80%;
 }
 
 .loader-container {
@@ -159,6 +160,7 @@
   animation: box1Animation 4s linear infinite;
   transform: scale(0.4) translateX(6px);
 }
+
 
 .loader path:nth-child(2) {
   transform-origin: center;
