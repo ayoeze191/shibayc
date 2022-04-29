@@ -17,7 +17,14 @@
          "Multi_Chart_Button": "지금 확인",
          "New_contract_Header": "새로운 계약",
          "New_contract_Text": "이더리움 네트워크에 새로 배포된 계약의 라이브 피드",
-         "New_contract_Button": "더 많은 정보"
+         "New_contract_Button": "더 많은 정보",
+         "porfolio-tracker_header": "Cashlino 가 도와드리",
+        "portfolio_tracker_title": "바이낸스 스마트체인에서 가장 성공적인 포트폴리오 관리 도구",
+         "watchlist_header": "관심 목록",
+         "watchlist_title": "바이낸스 스마트 체인 주변의 토큰을 추적하십시오.",
+         "multichart_header": "멀티 차트",
+         "multichart_title": "같은 장소에서 모든 동전을 추적하십시오.",
+         "mutichart_subtitle": "최대 6개의 차트를 생성하고 가격 기록 외에 실시간 통화 가격을 추적할 수 있습니다."
     }
  }
 

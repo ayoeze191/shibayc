@@ -10,21 +10,20 @@ import { MdOutlineSwapHoriz } from 'react-icons/md';
 const Token = () => {
   return (
     <div className='font-poppins-Regular md:flex-1 w-11/12 relative  h-full md:mr-5 flex flex-col items-center'>
-        <div className='w-4/5 flex gap-2 justify-center max-w-lg mb-10'>
-        <div className='flex-1'><input type='text' className='py-2 rounded-lg w-full px-2'/></div>
-        <div><input type='submit' className='bg-d py-2 px-2 text-white rounded-lg '/></div>
+        <div className='w-11/12 flex gap-2 justify-center max-w-lg mb-10'>
+        <div className='flex-1'><input type='text' className='py-2 rounded-md w-full px-2' placeholder='Paste ETH Contract Address '/></div>
+        <div><input type='submit' className='bg-d py-2 px-4 text-white rounded-lg' value='Go'/></div>
         </div>
 
-        <div className='w-4/5 text-white flex flex-col md:flex-row justify-between max-w-4xl bg-slate-900 py-3 rounded-lg px-3 items-center gap-10'>
+        <div className='w-11/12 text-white flex flex-col md:flex-row justify-between max-w-4xl bg-slate-900 py-3 rounded-lg px-3 items-center gap-10'>
         <div className='flex gap-2 w-full items-center justify-center md:justify-start md:w-fit '><div><img src={Logo} className = "w-[4rem]" /></div><p>
 Cashlno
   <h2>Cashlno</h2>
 </p></div>
 
-        <div className='flex gap-2 md:gap-4 flex-wrap items-center justify-center'>
+        <div className='flex gap-6 flex-wrap items-center justify-center text-xs'>
           <div>
             <p>HOLDERS</p>
-            <p>0</p>
           </div>
           <div>
             <p>Price</p>
@@ -43,7 +42,7 @@ Cashlno
             <p>0</p>
           </div>
         </div>
-        <div className="w-11">
+        <div className="w-8">
   <img src={upFork}  className = "w-full"/>
         </div>
         </div>
@@ -53,13 +52,13 @@ Cashlno
 <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit bg-d'><MdOutlineSwapHoriz color='white'/> SWAP</button>
 <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit bg-d'> <GiPadlock  fontSize='1.95rem' color='white'/> RUG CHECKER</button>
 </div>
-    <div className='flex gap-1 bg-[#101722] long-div w-4/5 border-t-2 border-slate-300 text-white overflow-x-scroll sm:overflow-hidden'>
-      <div className='px-2 py-4 flex-1 text-center'>Type</div>
-      <div className='px-2 py-4 flex-1 text-center'>Token</div>
-      <div className='px-2 py-4 flex-1 text-center'>Price USD</div>
-      <div className='px-2 py-4 flex-1 text-center'>Price USD/Token</div>
-      <div  className='px-2 py-4 flex-1 text-center'>Time</div>
-      <div className='px-2 py-4 flex-1 text-center'>Tx</div>
+    <div className='flex gap-1 bg-[#101722] long-div w-4/5  text-white overflow-x-scroll sm:overflow-hidden'>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Type</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Tokens</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Price USD</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Price USD/Token</div>
+      <div  className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Time</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Tx</div>
     </div>
 
     </div>

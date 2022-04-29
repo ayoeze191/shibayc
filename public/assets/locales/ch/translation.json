@@ -17,6 +17,13 @@
          "Multi_Chart_Button": "現在檢查",
          "New_contract_Header": "新合同",
          "New_contract_Text": "以太坊网络上新部署的合约的实时提要",
-         "New_contract_Button": "更多信息"
+         "New_contract_Button": "更多信息",
+         "porfolio-tracker_header": "讓 Cashlino 幫助您",
+         "portfolio_tracker_title": "幣安智能鏈上最成功的投資組合管理工具",
+          "watchlist_header": "關注列表",
+          "watchlist_title": "跟踪幣安智能鏈周圍的代幣。",
+          "multichart_header": "多圖",
+          "multichart_title": "在同一個地方跟踪您的所有硬幣。",
+          "mutichart_subtitle": "除了價格歷史記錄外，您最多可以生成六個圖表並跟踪實時貨幣價格。" 
     }
  }

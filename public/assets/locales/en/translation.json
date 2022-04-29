@@ -18,7 +18,13 @@
         "Multi_Chart_Button": "Check Now",
         "New_contract_Header": "New Contracts",
         "New_contract_Text": "Live feed of newly deployed contracts on ethereum network.",
-        "New_contract_Button": "More Info"
-
+        "New_contract_Button": "More Info",
+        "porfolio-tracker_header": "Let Cashlino help you",
+        "portfolio_tracker_title": "The most successful portfolio management tool on the Ethereum Chain",
+         "watchlist_header": "Watchlist",
+         "watchlist_title": "Track tokens around the Ethereum Chain.",
+         "multichart_header": "Multichart",
+         "multichart_title": "Keep track of all your coins in the same place.",
+         "mutichart_subtitle": "You can generate up to six charts and track real-time currency prices in addition to your price history"
    }
 }
