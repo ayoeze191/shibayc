@@ -44,7 +44,7 @@
 }
 
 .menu-bar .li:hover .sub-menu{
-  @apply block absolute cursor-pointer text-white bg-color--luminous-vivid-amber w-full mt-2 text-center rounded-md py-3 gap-5
+  @apply block absolute cursor-pointer text-white bg-color--luminous-vivid-amber w-fit mt-2 text-center rounded-md py-3 gap-5
 }
 .menu-bar .li:hover .sub-menu ul {
   @apply flex flex-col 

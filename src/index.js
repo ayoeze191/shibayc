@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import LanguageDetector from 'i18next-browser-languagedetector';
+
 // import React from "react";
 // import ReactDOM from "react-dom";
 import i18n from "i18next";
