@@ -135,6 +135,7 @@
   align-items: flex-start;
   /* background-color: red; */
   height: 100%;
+  background-color: #fbf3c4;
 }
 
 .loader-container {
@@ -159,6 +160,10 @@
   position: relative;
   animation: box1Animation 4s linear infinite;
   transform: scale(0.4) translateX(6px);
+}
+
+.modalDiv:hover h3 {
+  text-decoration: underline;
 }
 
 

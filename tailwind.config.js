@@ -10,7 +10,8 @@ module.exports = {
         'Navy-blue': 'hsl(240, 76%, 5%)',
         'color--luminous-vivid-amber': '#fcb900',
         'd': '#ffcc00',
-        'mypurple': '#330325' 
+        'mypurple': '#330325',
+        'd-light': '#fbf3c4' 
       },
       fontFamily:{
         "poppins-Regular": ["Poppins-Regular"],
