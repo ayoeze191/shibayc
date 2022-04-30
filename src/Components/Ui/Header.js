@@ -35,7 +35,7 @@ const languages = [
 
 const Header = (props) => {
   return (
-    <div className='px-5 flex py-2  mb-8 -z-5 items-center bg-Navy-blue font-poppins-Regular'>
+    <div className='px-5 flex py-2  mb-8 -z-5 items-center bg-Navy-blue font-poppins-Regular' >
     <div className='flex gap-3 md:gap-7 items-center'>
     <div className='hamburger h-fit cursor-pointer' onClick={() => props.show()}>
           <GiHamburgerMenu color='blueviolet' fontSize='1.9rem'/>  
@@ -54,7 +54,7 @@ const Header = (props) => {
     </div>
     </div>
     <div>
-    <button className='bg-color--luminous-vivid-amber py-2 px-3 sm:py-2 sm:px-6 rounded-lg text-xs sm:text-sm text-white h-fit'>Connect Wallet</button>
+    <button className='bg-color--luminous-vivid-amber py-2 px-3 sm:py-2 sm:px-6 rounded-lg text-xs sm:text-sm text-white h-fit' onClick={() => props.showConnect()}>Connect Wallet</button>
     </div>
     </div>
     </div>
