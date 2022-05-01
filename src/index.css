@@ -134,8 +134,9 @@
   justify-content: center;
   align-items: flex-start;
   /* background-color: red; */
-  height: 100%;
-  background-color: #fbf3c4;
+  height: fit-content;
+  /* background-color: #fbf3c4; */
+  padding: 10rem 0;
 }
 
 .loader-container {
