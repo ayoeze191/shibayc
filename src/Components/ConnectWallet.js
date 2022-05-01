@@ -9,7 +9,7 @@ import walletConnect from "./../Assets/walletConnect.svg"
 import { BsArrowRight, BsArrowUpRight, BsArrowLeft } from "react-icons/bs"
 import {AiOutlineClose, AiOutlineExclamationCircle} from "react-icons/ai"
 const ConnectWallet = (props) => {
-  const [showOrder, setshowOrder] = useState(true)
+  const [showOrder, setshowOrder] = useState(false)
   const OrderHandler = () => {
     setshowOrder(!showOrder)
   }
