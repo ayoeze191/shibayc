@@ -65,7 +65,7 @@ function App() {
       </Routes>
       </div>
       <SideBar navstatus = {navStatus} show = {navHandler}/>
-      <ConnectWallet show = {ConnectStatus}/>
+      <ConnectWallet show = {ConnectStatus} handler = {OverlayHandler}/>
       </div>
       </Router>
     </div>

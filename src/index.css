@@ -10,11 +10,11 @@
 @layer base{
   html{
     height: 100%;
-    position: relative;
+    /* position: relative; */
   }
   body{
       height: 100%;
-      position: relative;
+      /* position: relative; */
   }
 }
 .as{
@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  
   
 }
 
@@ -65,11 +66,32 @@
   .w-out {
   width: calc(fit-content);
 }
-.long-div:hover div{
+.long-div:hover div, .table:hover div{
   background-color: rgb(71 85 105);
   transition : all 1s ;
   cursor: pointer;
 } 
+.long-div-watchList{
+  display: grid;
+  width: 90%;
+  margin: 0 auto;
+  grid-template-columns: minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr);
+  overflow-x: scroll;
+}
+.long-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr  1fr 1fr 1fr;
+  
+}
+
+.table {
+  width: 90%;
+  margin: 0 auto;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr) minmax(52px, 1fr);
+  overflow-x: scroll;
+}
 }
 .grid-items{
   grid-column: 1/4;

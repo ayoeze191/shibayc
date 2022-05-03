@@ -19,7 +19,7 @@ const ConnectWallet = (props) => {
       opacity: props.show ? '1' : '0'
   }}>
        {!showOrder&& <div className='flex flex-col gap-6 w-full'>
-            <div className='flex w-full justify-between  '><h3>Connect a Wallet</h3><div ><AiOutlineClose fontSize={20} /> </div></div>
+            <div className='flex w-full justify-between  '><h3>Connect a Wallet</h3><div className='cursor-pointer'><AiOutlineClose fontSize={20} onClick = {() => props.handler()}/> </div></div>
             <div className='w-full'>By connecting a wallet, you agree to Uniswap Labs’ <a className='text-mypurple' href="#"><span className='text-mypurple font-bold hover:underline'>Terms of Service</span></a> and acknowledge that you have read and understand the Uniswap <a className='text-mypurple font-bold hover:underline cursor-pointer'>Protocol Disclaimer.</a></div>
             <div className='flex w-full justify-between bg-[#edeef2] border border-slate-400 py-2 rounded-md px-3 items-center hover:border-d cursor-pointer'><h3>Install Metamask</h3> <div className='w-8'><img src={metamask} className = 'w-full'/></div> </div>
             <div className='flex w-full justify-between bg-[#edeef2] border border-slate-400 py-2 rounded-md px-3 items-center hover:border-d cursor-pointer'><h3>WalletConnect</h3> <div><img src={walletConnect} /></div></div>

@@ -9,7 +9,7 @@ import {BsStar} from 'react-icons/bs'
 import { MdOutlineSwapHoriz } from 'react-icons/md';
 const Token = () => {
   return (
-    <div className='font-poppins-Regular md:flex-1 w-11/12 relative  h-full md:mr-5 flex flex-col items-center'>
+    <div className='font-poppins-Regular md:flex-1 w-4/5 relative  h-full md:mr-5 flex flex-col items-center max-w-xl'>
         <div className='w-11/12 flex gap-2 justify-center max-w-lg mb-10'>
         <div className='flex-1'><input type='text' className='py-2 rounded-md w-full px-2' placeholder='Paste ETH Contract Address '/></div>
         <div><input type='submit' className='bg-d py-2 px-4 text-white rounded-lg' value='Go'/></div>
@@ -52,13 +52,13 @@ Cashlno
 <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit bg-d'><MdOutlineSwapHoriz color='white'/> SWAP</button>
 <button className='flex bg-silver-sand px-4 gap-2  py-1 items-center rounded-lg w-fit bg-d'> <GiPadlock  fontSize='1.95rem' color='white'/> RUG CHECKER</button>
 </div>
-    <div className='flex gap-1 bg-[#101722] long-div w-4/5  text-white overflow-x-scroll sm:overflow-hidden'>
-      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Type</div>
-      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Tokens</div>
-      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Price USD</div>
-      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Price USD/Token</div>
-      <div  className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Time</div>
-      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300'>Tx</div>
+    <div className='grid bg-[#101722] long-div w-full  text-white overflow-x-scroll sm:overflow-hidden gap-1'>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300 min-w-[54px]'>Type</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300 min-w-[54px]'> Tokens</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300 min-w-[54px]'>Price USD</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300 min-w-[54px]'>Price USD/Token</div>
+      <div  className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300 min-w-[54px]'>Time</div>
+      <div className='px-2 py-3 flex-1 text-center border-t-2 border-slate-300 min-w-[54px]'>Tx</div>
     </div>
 
     </div>
